@@ -1,0 +1,55 @@
+body {
+  background-image: url('https://via.placeholder.com/1500'); /* Replace with your own image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Center the entire app content */
+div {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: rgba(8, 8, 8, 0.8); /* semi-transparent background for readability */
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(240, 3, 3, 0.3);
+}
+
+/* Style for the heading */
+h1, h2 {
+  color: #006bd6;
+}
+
+/* Style the form and inputs */
+form {
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #3498db;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Style the message */
+p {
+  color: green;
+  font-weight: bold;
+}
